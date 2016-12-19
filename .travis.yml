@@ -9,3 +9,6 @@ install:
 script:
         - npm run lint
         - npm test
+env:
+        - AUTH=true USER=user PASSWORD=pw
+        - AUTH=false

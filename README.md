@@ -1,4 +1,6 @@
 # URL Shortener - Tutorial project for learning git, github, Travis CI, and Docker. 
+[![Build Status](https://travis-ci.org/jheinovski/urlshortener.svg?branch=master)](https://travis-ci.org/jheinovski/urlshortener)
+
 URL Shortener is a small web service exposing a RESTful HTTP API to create, resolve, and delete short URLs hosted on your own domain. It is written using JavaScript (ES6) and runs on Node.js.
 
 The project serves a basis for a tutorial on git, github, Travis CI, and Docker. It is intended for people having a rough understanding of these different technologies and want to get a hands-on experience.

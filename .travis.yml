@@ -1,17 +1,17 @@
 language: node_js
 node_js:
-        - "6"
-        - "7"
+    - "6"
+    - "7"
 before_script:
-        - npm start
+    - npm start
 install:
-        - npm install
+    - npm install
 script:
-        - npm run lint
-        - npm test
+    - npm run lint
+    - npm test
 env:
-        - AUTH=true USER=user PASSWORD=pw
-        - AUTH=false
+    - AUTH=true USER=user PASSWORD=pw
+    - AUTH=false
 notfications:
-        email:
-                - dennis.wolters@upb.de
+  email:
+    - dennis.wolters@upb.de

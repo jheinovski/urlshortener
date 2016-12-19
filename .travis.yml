@@ -12,3 +12,6 @@ script:
 env:
         - AUTH=true USER=user PASSWORD=pw
         - AUTH=false
+notfications:
+        email:
+                - dennis.wolters@upb.de
